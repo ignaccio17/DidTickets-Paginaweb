@@ -113,6 +113,34 @@ a{
     margin-left: -370px;
 }
 
+/* -------segundo container-------- */
+
+.footers img {
+                width: 380px;
+                height: 200px;
+            }
+            
+            .foot1 {
+                margin-top: -200px;
+                margin-left: -750px;
+            }
+            
+            .foot2 {
+                margin-left: 100px;
+                margin-top: -270px;
+            }
+            
+            .foot3 {
+                margin-left: 950px;
+                margin-top: -272px;
+            }
+
+#somos-divvac h1{
+    white-space: nowrap;
+    color: rgb(0, 145, 230);
+    font-size: 1.50em;
+}
+
 #somos-divvac .container{
     text-align: center;
     padding: 250px 12px;
@@ -209,23 +237,13 @@ footer .container{
     }
     
     #somos-divvac {
-        height: 65vh;
+        height: 85vh;
         }
 
 
     #somos-divvac .container{
         display: flex;
         justify-content: space-evenly;
-    }
-
-    #somos-divvac .texto{
-        width: 50%;
-        max-width: 600px;
-        text-align: initial;
-        padding-left: 30px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
     }
 
     #nuestros-servicios .programas{
