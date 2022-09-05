@@ -14,16 +14,29 @@ body{
 h1{ font-size: 2.25em;}
 h2{ font-size: 2.7em;}
 h3{ font-size: 2em;}
-p{ font-size: 1.25em;}
 ul{ list-style: none;}
 li{ font-size: 1.25em;}
 
+
+ button{
+    padding: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(0, 99, 192);
+    cursor: pointer;
+    border: #000000;
+ }
+
+ button:hover{
+    background-color: rgb(71, 97, 245)
+}
+
+ 
 .container{
     max-width: 800px;
     margin: auto;
 }
-
-.color-acento{ color:blueviolet; }
 
 header{
     background-color: rgba(0, 0, 0, 0.295);
@@ -95,7 +108,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 66vh;
+    height: 650px;
     background-image: url("assest/banner.jpg");
 }
 
@@ -103,7 +116,7 @@ a{
     white-space: nowrap;
     color: white;
     margin-top: 290px;
-    margin-left: -320px;
+    margin-left: -620px;
 }
 
 #hero p{
@@ -111,6 +124,11 @@ a{
     color: white;
     margin-top: 370px;
     margin-left: -370px;
+}
+
+.buttons{
+    margin-top: 500px;
+    margin-left: -640px;
 }
 
 /* -------segundo container-------- */
@@ -135,94 +153,133 @@ a{
                 margin-top: -272px;
             }
 
-#somos-divvac h1{
+            .foot4 {
+                background-image: url(assest/foto4.PNG);
+                width: 543px;
+                height: 307px;
+                margin-top: 100px;
+                margin-left: 122px;
+            }
+
+            .foot4 h2 {
+                margin-top: 100px;
+                margin-left: 580px;
+                white-space: nowrap;
+                color: rgb(0, 145, 230);
+                font-size: 2em;
+            }
+
+            .foot4 h3 {
+                margin-top: -20px;
+                margin-left: 580px;
+                white-space: nowrap;
+                color: rgb(0, 0, 0);
+                font-size: 1.15em;
+            }
+
+            .parrafo4 {
+                margin-top: -240px;
+                margin-left: 702px;
+                margin-right: 200px;
+                text-align: left;
+                color: rgb(0, 0, 0);
+                font-size: 1em;
+            }
+
+            .button-footer{
+                margin-top: -2px;
+                margin-left: 130px;
+            }
+
+#hero2 h1{
     white-space: nowrap;
     color: rgb(0, 145, 230);
     font-size: 1.50em;
 }
 
-#somos-divvac .container{
+#hero2 .container{
     text-align: center;
     padding: 250px 12px;
 }
 
-#nuestros-servicios{
-    background-image: url(assest/halo-rojo.jpg);
-    height: 55vh;
+/* -------tercer container-------- */
+
+.tres-container{
+    box-shadow: 10px  black;
+    text-shadow: 10px black;
+}
+
+.title1 h1 {
+                margin-top: 100px;
+                margin-left: -900px;
+                white-space: nowrap;
+                color: rgb(0, 145, 230);
+                font-size: 1.75em;
+            }
+
+            .title2 h3{
+                margin-top: -20px;
+                margin-left: -870px;
+                white-space: nowrap;
+                font-size: 1.20em;
+                color: rgb(255, 255, 255);
+            }
+
+            .title3 p{
+                margin-top: 15px;
+                margin-left: -214px;
+                margin-right: 450px;
+                text-align: left;
+                font-size: 1.20em;
+                color: rgb(255, 255, 255);
+            }
+
+            .buttons2{
+                margin-top: 30px;
+                margin-left: -730px;
+                
+            }
+
+            .caratulas{
+                margin-top: -250px;
+                margin-left: 520px;
+            }
+
+#hero3{
+    background-image: url(assest/halo-rojo.png);
+    height: 550px;
     color: white;
     text-align: center;
 }
 
-#nuestros-servicios .container{
+#hero3 .container{
     padding: 60px 12px;
 }
 
-#nuestros-servicios h2{
-    margin-top: 0;
-    font-size: 3.2em;
-}
+/* -------cuarto container-------- */
 
-#nuestros-servicios p{
-    display: none;
-}
-
-#nuestros-servicios .carta{
-    background-position: center center;
-    background-size: cover;
-    padding: 40px 0px;
-    margin: 70px 30px;
-    border-radius: 15px;
-}
-
-#portafolios{
+#hero4{
     background-color: rgb(255, 255, 255);
     color: white;
     text-align: center;
     height: 65vh;
 }
 
-#portafolios .container{
+#hero4 .container{
     padding: 200px 12px;
 }
 
-#portafolios h2{
-    margin-top: 0;
-    font-size: 3.2em;
-}
-
-#portafolios p{
-    display: none;
-}
-
-#portafolios .carta{
-    background-position: center center;
-    background-size: cover;
-    padding: 50px 0px;
-    margin: 10px;
-    border-radius: 15px;
-}
-
-#contactos button{
-    font-size: 5vw;
-}
-
+/* -------- ultimo container ----------- */
 
 footer{
     background-color: rgb(37, 37, 37);
-}
-
-footer p{
-    margin: 0;
-    padding: 12px;
-    color: rgb(255, 255, 255);
+    height: 7vh;
 }
 
 footer .container{
-    height: 150px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    box-shadow: #000000;
 }
 
 @media (min-width: 850px){
@@ -236,164 +293,55 @@ footer .container{
         justify-content: space-between;
     }
     
-    #somos-divvac {
-        height: 85vh;
+    #hero2 {
+        height: 850px;
         }
 
 
-    #somos-divvac .container{
+    #hero2 .container{
         display: flex;
         justify-content: space-evenly;
     }
 
-    #nuestros-servicios .programas{
+    #hero3 .programas{
         display: flex;
         justify-content: center;
     }
 
-    #nuestos-servicios button{
-        text-decoration: none;
-        color: rgb(255, 255, 255);
-    }
 
-    #nuestros-servicios p{
-        display: block;
-        margin-top: 30px;
-    }
-
-    #nuestros-servicios h2{
-        font-size: 4em;
-    }
-
-    #nuestros-servicios h3{
-        margin-top: -45px;
+    footer p{
+        color: rgb(252, 252, 252);
+        cursor: pointer;
     }
     
-    #nuestros-servicios p{
-        display: block;
-        margin-bottom: 20px;
-        color: #c2c2c2;
-    }
-
-    #portafolios .programas{
-        display: flex;
-        justify-content: center;
-    }
-
-    #portafolios p{
-        display: block;
-        margin-top: 40px;
-        color: #c2c2c2;
-    }
-
-    #portafolios h2{
-        font-size: 4em;
-    }
-
-    #portafolios h3{
-        margin-top: 0;
-    }
-
-    #contactos{
-        text-shadow: 0 0 20px rgb(19, 20, 19); 
-        height: 2vh;
-    }
-
-    #contactos .container {
-        text-align: center;
-    }
-
-    #contactos table{
-        margin-left: 800px;
-        margin-top: -210px;
-        text-align: left;
-        color: rgb(255, 255, 255);
-    }
-
-    #contactos p{
-        margin-left: 1400px;
-        margin-top: -140px;
-        text-align: left;
-        color: rgb(255, 255, 255);
-        font-size: 1em;
-        
-    }
-
-    #contactos a{
-        text-decoration: none;
-        color: rgb(255, 255, 255);
-    }
-
-    #contactos textarea{
-        margin-left: 1400px;
-        margin-top: 10px;
-        text-align: left;
-        border-radius: 10px;
-        box-shadow: 0 0 20px rgb(19, 20, 19);
-    }
-
-    #contactos .logo-final{
-        background-image: url("img/image.png");
-            background-size: cover;
-            background-position: center center;
-            height: 300px;
-            width: 300px; 
-            margin-left: 230px;
-            margin-top: 0px;
-
-    }
-
-    #contactos h3{
-        font-size: 3em;
-        text-align: center;
-        margin-bottom: 30px;
-    }
-
-    #contactos ul{
-        margin-left: 100px;
-    }
-
-    #contactos h2{
-        font-size: 5em;
-        text-align: center;
-    }
-
-    #contactos h4{
-        font-size: 0.50em;
-        margin-left: -5px;
-        margin-top: 0px;
-    }
-
-    #contactos button{
-        margin-left: 1507px;
-        margin-top: 10px;
-        max-width: 300px;
-        max-height: 40px;
-        color: rgb(255, 255, 255);
-    }
-
-
-    #contactos button{
-        font-size: 2em;
-    }
-
     footer .container{
         justify-content: flex-end;
-        margin-left: 1400px;
-        margin-top: -100px;
 
+    }
+
+    .idioma img{
+        width: 40px;
+        margin-left: 350px;
+        margin-top: 15px;
+
+    }
+
+    .idioma p{
+        margin-left: 400px;
+        margin-top: -45px;
+    }
+
+    .ultimo p{
+        display: inline;
+        padding: 30px;
+        margin-left: 1000px;
+        margin-top: -35px;
+    }
+
+    .ultimo img{
+        width: 150px;
+        margin-left: 350px;
+        margin-top: -900px;
     }
 
 }
-
-@media (min-width: 1200px) {
-    #portafolios{
-        background-position-x: calc(100vw - 800px);
-    }
-}
-
-    @media (min-width: 1200px) {
-        #contactos{
-            background-position-x: calc(100vw - 800px);
-        }
-    }
