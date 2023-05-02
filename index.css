@@ -7,7 +7,7 @@ html{
 }
 
 body{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
 }
 
@@ -34,23 +34,25 @@ li{ font-size: 1.25em;}
 
  
 .container{
-    max-width: 800px;
+    max-width: 500px;
     margin: auto;
 }
 
 header{
-    background-color: rgba(0, 0, 0, 0.295);
+    background-color: rgb(255, 255, 255);
 }
 
 header .logo{
         background-size: cover;
         background-position: center center;
-}
+    margin-top: -80px;
+} 
 
 .logo img {
-    max-height: 150px;
-    max-width: 150px; 
-    margin-left: -170px;
+    max-height: 250px;
+    max-width: 250px; 
+    margin-left: -360px;
+    margin-top: 80px;
 }
 
 header .container{
@@ -69,30 +71,27 @@ header nav{
         padding-right: 20px;
 }
 
+.navsss{
+height: 100px;
+
+}
+
 .navsss a {
+    margin-top: -15px
+}
+
+.sign a {
     margin-top: -40px;
-}
-
-.sign nav{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-top: -20px;
-
-}
-
-.lupa img{
-    margin-top: 5px;
     margin-left: 200px;
 }
 
 header a{
     white-space: nowrap;
     padding: 5px 12px;
-    margin-top: -30px;
+    margin-top: -50px;
     text-decoration: none;
     font-weight: bold;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 header a:hover{
@@ -112,18 +111,10 @@ a{
     background-image: url("assest/banner.jpg");
 }
 
-#hero h1{
-    white-space: nowrap;
-    color: white;
-    margin-top: 290px;
-    margin-left: -620px;
-}
-
 #hero p{
-    white-space: nowrap;
+    font-size: 1.5em;
     color: white;
     margin-top: 370px;
-    margin-left: -370px;
 }
 
 .buttons{
