@@ -107,9 +107,60 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 650px;
-    background-image: url("assest/banner.jpg");
-}
+    height: 600px;
+   }
+
+.carousel {
+    position: relative;
+    width: 1000%;
+    height: 400px;
+    overflow: hidden;
+  }
+  
+  .carousel-inner {
+    display: flex;
+    width: 300%;
+    height: 100%;
+    animation: slide 5s infinite;
+  }
+  
+  .carousel-inner img {
+    width: 33.33333%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .carousel-inner img.active {
+    transform: translateX(0);
+  }
+  
+  .carousel-inner img:first-of-type {
+    transform: translateX(0);
+  }
+  
+  .carousel-inner img:nth-of-type(2) {
+    transform: translateX(-33.33333%);
+  }
+  
+  .carousel-inner img:last-of-type {
+    transform: translateX(-66.66666%);
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    33.33% {
+      transform: translateX(0);
+    }
+    66.66% {
+      transform: translateX(-33.33333%);
+    }
+    100% {
+      transform: translateX(-33.33333%);
+    }
+  }
+  
 
 #hero p{
     font-size: 1.5em;
@@ -145,27 +196,31 @@ a{
             }
 
             .foot4 {
-                background-image: url(assest/foto4.PNG);
-                width: 543px;
-                height: 307px;
+                background-image: url(assest/imagendid.png);
+                width: 467px;
+                height: 331px;
                 margin-top: 100px;
                 margin-left: 122px;
             }
 
             .foot4 h2 {
                 margin-top: 100px;
-                margin-left: 580px;
+                margin-left: 520px;
                 white-space: nowrap;
-                color: rgb(0, 145, 230);
+                color: rgb(167, 80, 0);
                 font-size: 2em;
             }
 
-            .foot4 h3 {
-                margin-top: -20px;
-                margin-left: 580px;
-                white-space: nowrap;
+            .fot11 h3 {
                 color: rgb(0, 0, 0);
-                font-size: 1.15em;
+                font-size: 1.5em;
+            }
+
+            .fot11 {
+                margin-top: -300px;
+                margin-left: 650px;
+                margin-right: 300px;
+                text-align: left;
             }
 
             .parrafo4 {
@@ -183,8 +238,7 @@ a{
             }
 
 #hero2 h1{
-    white-space: nowrap;
-    color: rgb(0, 145, 230);
+    color: rgb(167, 80, 0);
     font-size: 1.50em;
 }
 
@@ -193,116 +247,11 @@ a{
     padding: 250px 12px;
 }
 
-/* -------tercer container-------- */
-
-.tres-container{
-    box-shadow: 10px  black;
-    text-shadow: 10px black;
-}
-
-.title1 h1 {
-                margin-top: 100px;
-                margin-left: -900px;
-                white-space: nowrap;
-                color: rgb(0, 145, 230);
-                font-size: 1.75em;
-            }
-
-            .title2 h3{
-                margin-top: -20px;
-                margin-left: -870px;
-                white-space: nowrap;
-                font-size: 1.20em;
-                color: rgb(255, 255, 255);
-            }
-
-            .title3 p{
-                margin-top: 15px;
-                margin-left: -214px;
-                margin-right: 450px;
-                text-align: left;
-                font-size: 1.20em;
-                color: rgb(255, 255, 255);
-            }
-
-            .buttons2{
-                margin-top: 30px;
-                margin-left: -730px;
-                
-            }
-
-            .caratulas{
-                margin-top: -250px;
-                margin-left: 520px;
-                box-shadow: inherit;
-            }
-
-#hero3{
-    background-image: url(assest/halo-rojo.png);
-    height: 550px;
-    color: white;
-    text-align: center;
-}
-
-#hero3 .container{
-    padding: 60px 12px;
-}
-
-/* -------cuarto container-------- */
-
-#hero4{
-    background-color: rgb(255, 255, 255);
-    color: white;
-    text-align: center;
-    height: 65vh;
-}
-
-#hero4 .container{
-    padding: 200px 12px;
-}
-
-.title11 h1 {
-                margin-top: -150px;
-                margin-left: -900px;
-                white-space: nowrap;
-                color: rgb(0, 145, 230);
-                font-size: 1.75em;
-            }
-
-            .title22 h3{
-                margin-top: -20px;
-                margin-left: -850px;
-                white-space: nowrap;
-                font-size: 1.20em;
-                color: rgb(0, 0, 0);
-            }
-
-            .title33 p{
-                margin-top: 15px;
-                margin-left: -210px;
-                margin-right: 450px;
-                text-align: left;
-                font-size: 1.20em;
-                color: rgb(0, 0, 0);
-            }
-
-            .buttons22{
-                margin-top: 30px;
-                margin-left: -740px;
-                
-            }
-
-            .caratulas{
-                margin-top: -250px;
-                margin-left: 520px;
-                box-shadow: inherit;
-            }
-
 /* -------- ultimo container ----------- */
 
 footer{
     background-color: rgb(37, 37, 37);
-    height: 7vh;
+    height: 30vh;
 }
 
 footer .container{
@@ -348,37 +297,18 @@ footer .container{
 
     }
 
-    .idioma img{
-        width: 30px;
-        margin-left: 350px;
-        margin-top: 17px;
-        width: 40px;
-        margin-left: 350px;
-        margin-top: 15px;
-
-    }
-
-    .idioma p{
-        margin-left: 400px;
-        margin-top: -34px;
-    }
-    
-    .idioma{
-        margin-top: 10px;
-    }
-
     .ultimo p{
-        margin-left: 700px;
-        margin-top: -35px;
-        word-spacing: 0.25em;
+        margin-left:1450px;
+        word-spacing: 0.4em;
+        font-size: 1.4em;
     }
 
     .img-final img{
-        width: 150px;
+        width: 400px;
     }
 
     .img-final{
-        margin-left: 1500px;
-        margin-top: -45px;
+        margin-left: 200px;
+        margin-top: 50px;
     }
 }
