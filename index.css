@@ -109,22 +109,24 @@ a{
 
 .carousel {
     position: relative;
-    width: 1000%;
+    width: 1900px;
     height: 400px;
     overflow: hidden;
   }
   
-  .carousel-inner {
-    display: flex;
-    width: 300%;
-    height: 100%;
-    animation: slide 5s infinite;
-  }
+  
   
   .carousel-inner img {
-    width: 33.33333%;
-    height: 100%;
+    width: 1900px;
+    height: 400px;
     object-fit: cover;
+  }
+
+  .carousel-inner {
+    display: flex;
+    width: 500%;
+    height: 800px;
+    animation: slide 10s infinite;
   }
   
   .carousel-inner img.active {
@@ -178,18 +180,18 @@ a{
             }
             
             .foot1 {
-                margin-top: -200px;
+                margin-top: -250px;
                 margin-left: -750px;
             }
             
             .foot2 {
                 margin-left: 100px;
-                margin-top: -276px;
+                margin-top: -267px;
             }
             
             .foot3 {
                 margin-left: 950px;
-                margin-top: -276px;
+                margin-top: -267px;
             }
 
             .foot4 {
@@ -234,9 +236,9 @@ a{
                 margin-left: 130px;
             }
 
-#hero2 h1{
+#hero2 a, h1{
     color: rgb(167, 80, 0);
-    font-size: 1.50em;
+    font-size: 1.20em;
 }
 
 #hero2 .container{
