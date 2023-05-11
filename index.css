@@ -38,14 +38,16 @@ li{ font-size: 1.25em;}
     margin: auto;
 }
 
-header{
+#header{
+    height: 5px;
     background-color: rgb(255, 255, 255);
 }
 
-header .logo{
+#header .logo{
         background-size: cover;
         background-position: center center;
-    margin-top: -80px;
+    margin-top: -60px;
+    margin-left: -300px;
 } 
 
 .logo img {
@@ -55,13 +57,13 @@ header .logo{
     margin-top: 80px;
 }
 
-header .container{
+#header .container{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-header nav{
+#header nav{
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -71,30 +73,25 @@ header nav{
         padding-right: 20px;
 }
 
-.navsss{
-height: 100px;
-
-}
-
-.navsss a {
-    margin-top: -15px
+.navsss {
+    margin-top: -100px
 }
 
 .sign a {
-    margin-top: -40px;
-    margin-left: 200px;
+
+    margin-left: 1000px;
+    margin-top: -80px;
 }
 
-header a{
+#header a{
     white-space: nowrap;
     padding: 5px 12px;
-    margin-top: -50px;
     text-decoration: none;
     font-weight: bold;
     color: rgb(0, 0, 0);
 }
 
-header a:hover{
+#header a:hover{
     color: rgb(128, 128, 128);
 }
 
