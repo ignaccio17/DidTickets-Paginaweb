@@ -111,13 +111,13 @@ a{
 
 .carousel {
     position: relative;
-    width: 1800px;
+    width: 1200px;
     height: 400px;
     overflow: hidden;
   }
 
 .carousel-inner img {
-    width: 1800px;
+    width: 1200px;
     height: 400px;
     object-fit: cover;
 }
@@ -244,6 +244,11 @@ a{
 #hero2 .container{
     text-align: center;
     padding: 250px 12px;
+}
+
+
+#hero2{
+    margin-left: -100px;
 }
 
 /* -------- ultimo container ----------- */
