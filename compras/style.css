@@ -1,6 +1,5 @@
 *{
     box-sizing: border-box;
-    
 }
 
 html{
@@ -10,7 +9,6 @@ html{
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
-    background-color: rgb(0, 0, 0);
 }
 
 h1{ font-size: 2.25em;}
@@ -20,17 +18,18 @@ ul{ list-style: none;}
 li{ font-size: 1.25em;}
 
 
-#anuel button{
-    padding: 15px;
+button{
+    height: 50px;
+    width: 200px;
     font-size: 1em;
     font-weight: bold;
     color: white;
-    background-color: rgb(218, 102, 0);
+    background-color: rgb(164, 0, 0);
     cursor: pointer;
     border: #000000;
  }
 
-#anuel button:hover{
+ button:hover{
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
 }
@@ -41,29 +40,32 @@ li{ font-size: 1.25em;}
     margin: auto;
 }
 
-nav{
-    background-color: white;
-    height: 100px;
+#header{
+    height: 0px;
+    background-color: rgb(255, 255, 255);
 }
 
-.logo{
-    margin-top: -55px;
-    margin-left: -776px;
+#header .logo{
+        background-size: cover;
+        background-position: center center;
+    margin-top: -60px;
+    margin-left: -300px;
 } 
 
 .logo img {
     max-height: 250px;
     max-width: 250px; 
+    margin-left: -360px;
+    margin-top: 80px;
 }
 
-
-header .container{
+#header .container{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-header nav{
+#header nav{
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -74,15 +76,16 @@ header nav{
 }
 
 .navsss {
-    margin-top: -45px
+    margin-top: -100px
 }
 
-.sign {
+.sign a {
+
     margin-left: 1000px;
-    margin-top: -22px;
+    margin-top: -82px;
 }
 
-header a{
+#header a{
     white-space: nowrap;
     padding: 5px 12px;
     text-decoration: none;
@@ -90,11 +93,129 @@ header a{
     color: rgb(0, 0, 0);
 }
 
-header a:hover{
+#header a:hover{
     color: rgb(128, 128, 128);
 }
 
 a{
     text-decoration: none;
     color: rgb(255, 255, 255);
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1000px;
+   }
+
+#hero p{
+    font-size: 1.5em;
+    color: white;
+    margin-top: 370px;
+}
+
+.buttons{
+    margin-top: 500px;
+    margin-left: -640px;
+}
+
+/* -------- aaaa ----------- */
+
+.foot1 img{
+    height: 400px;
+
+}
+
+.foot1{
+    margin-left: -800px;
+    margin-top: -400px;
+}
+
+.selec mark, h1{
+    background-color: rgb(218, 102, 0);
+    color: rgb(255, 255, 255);
+    font-size: 1.3em;
+}
+
+.selec{
+margin-left: 430px;
+margin-top: -200px;
+}
+
+.tabladepre{
+    margin-left: -200px;
+    margin-top: 500px;
+}
+
+.tabladepre th{
+    text-align: left;
+}
+
+.tabladepre td{
+    text-align: center;
+}
+
+.tabladepre td, th{
+    padding-left: 15px;
+    padding-top:8px;
+    color: rgb(0, 0, 0);
+}
+
+.tabladepre table{
+    border: rgb(0, 0, 0) 2px solid;
+    padding: 25px;
+}
+
+
+/* -------- ultimo container ----------- */
+
+footer{
+    background-color: rgb(37, 37, 37);
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (min-width: 850px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    #hero2 {
+        height: 850px;
+        }
+
+
+    #hero2 .container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #hero3 .programas{
+        display: flex;
+        justify-content: center;
+    }
+
+    footer{
+        margin-top: -100px;
+    }
+
+    footer img{
+        width: 400px;
+        margin-top: 30px;
+    }
+
+    footer button{
+    margin-left: 450px;
+    margin-top: 30px;
+    }
 }
