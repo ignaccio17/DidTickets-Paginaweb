@@ -176,13 +176,27 @@ height: 200px;
  }
  
 .tabladepre img{
-    height: 60px;
+    height: 50px;
+    margin-top: 10px;
 }
 
 .tabladepre label{
     font-size: 1.8em;
     color: rgb(88, 88, 88);
+}
 
+.tabladepre input{
+        margin-left: 620px;
+        width: 20px;
+        height: 50px;
+}
+
+.tabladepre{
+    border: 1px solid rgb(178, 178, 178);
+    height: 70px;
+    width: 900px;
+    margin-left: -360px;
+    margin-top: -200px;
 }
 
 /* -------- aaaa ----------- */
@@ -201,8 +215,11 @@ height: 200px;
     background-color: rgb(218, 102, 0);
     color: rgb(255, 255, 255);
     font-size: 1.3em;
-    margin-top: -318px;
-    margin-left: -160px;
+}
+
+.selec{
+    margin-top: -600px;
+    margin-left: 116px;
 }
 
 
