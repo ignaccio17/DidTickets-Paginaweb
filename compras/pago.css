@@ -20,6 +20,20 @@ ul{ list-style: none;}
 li{ font-size: 1.25em;}
 
 
+input{
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(218, 102, 0);
+    cursor: pointer;
+    border: #ffffff;
+ }
+
+ input:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
 footer button{
     height: 50px;
     width: 200px;
@@ -161,6 +175,16 @@ height: 200px;
 
  }
  
+.tabladepre img{
+    height: 60px;
+}
+
+.tabladepre label{
+    font-size: 1.8em;
+    color: rgb(88, 88, 88);
+
+}
+
 /* -------- aaaa ----------- */
 
 .foot1 img{
@@ -177,27 +201,8 @@ height: 200px;
     background-color: rgb(218, 102, 0);
     color: rgb(255, 255, 255);
     font-size: 1.3em;
-}
-
-.selec{
-margin-left: -430px;
-margin-top: -600px;
-}
-
-.tabladepre{
-    margin-left: 200px;
-    margin-top: -100px;
-}
-
-.tabladepre td, th{
-    padding-top: 10px;
-    color: rgb(0, 0, 0);
-    text-align: left;
-}
-
-span{
-    text-align: left;
-    color: rgb(88, 88, 88);
+    margin-top: -318px;
+    margin-left: -160px;
 }
 
 
@@ -251,179 +256,6 @@ footer{
     margin-left: 450px;
     margin-top: 30px;
     }
-
-/* -------- mapa ----------- */
-
-#contenedorMapa {
-    margin: 20px 0;
-    text-align: center;
-  }
-  
-  .mapaSVG svg {
-    width: 100%;
-  }
-  
-  svg path {
-    pointer-events: all;
-    stroke-width: 0.3px;
-  }
-  
-    svg path[id^=TT]:hover, svg g[id^=TT]:hover, svg rect[id^=TT]:hover, svg polygon[id^=TT]:hover {
-      opacity: 1;
-      stroke-width: 2;
-      cursor: pointer;
-    }
-  
-  .interactive-sector:not(.sector_destacado) {
-    opacity: 0.75;
-  }
-  
-  .sector_destacado {
-    opacity: 1;
-    stroke-width: 2;
-    filter: drop-shadow( 0px 5px 15px rgba(0, 0, 0, 0.35));
-  }
-  
-  svg path.no_disponible, svg g.no_disponible, svg rect.no_disponible, svg polygon.no_disponible {
-    fill: #d1d3d4 !important;
-  }
-  
-    svg path.no_disponible:hover, svg g.no_disponible:hover, svg rect.no_disponible:hover, svg polygon.no_disponible:hover {
-      opacity: 1;
-      stroke-width: 1;
-      cursor: default;
-    }
-  
-    svg g.no_disponible path, svg g.no_disponible rect, svg g.no_disponible polygon {
-      fill: #d1d3d4 !important;
-    }
-  
-  svg text {
-    font-family: "titillium regular", Helvetica, Arial, sans-serif !important;
-  }
-  
-  .tabla_sectores {
-    padding: 0;
-    position: relative;
-  }
-  
-  .sector span.color {
-    width: 11px;
-    height: 11px;
-    display: inline-block;
-    line-height: 11px;
-    float: left;
-    margin-right: 10px;
-  }
-  
-  .sector span.precio {
-    display: inline-block;
-    float: right;
-  }
-  
-  .sector.seleccionado {
-    background-color: #EEE;
-    color: #F47920;
-  }
-  
-  .sector.agotado {
-    position: relative;
-  }
-  
-    .sector.agotado::before {
-      content: '';
-      border-bottom: 2px solid red;
-      width: 97%;
-      position: absolute;
-      right: 0;
-      top: 50%;
-      margin: 0px 4px 0 0px;
-    }
-  
-  .locacion {
-    display: none;
-    width: 100%;
-  }
-  
-  
-  
-  .contenedor_mapa_referencia svg .area_no_seleccionada {
-    fill: #D1D3D4 !important;
-  }
-  
-  .contenedor_mapa_referencia svg .area_seleccionada, .contenedor_mapa_referencia svg .area_seleccionada > .area_no_seleccionada {
-    fill: #E8791B !important;
-  }
-  
-  .st0 {
-    fill: none;
-    stroke: #8D849D;
-    stroke-width: 0.25;
-    stroke-miterlimit: 10;
-}
-
-.st1 {
-    fill: #4BA8C9;
-}
-
-.st2 {
-    fill: #070508;
-    stroke: #0B0A0C;
-    stroke-width: 1.0696;
-    stroke-miterlimit: 10.6956;
-}
-
-.st3 {
-    fill: none;
-    stroke: #FFFFFF;
-    stroke-width: 0.5348;
-    stroke-miterlimit: 10.6956;
-}
-
-.st4 {
-    fill: #FEFDFD;
-}
-
-.st5 {
-    fill-rule: evenodd;
-    clip-rule: evenodd;
-    fill: #67A97E;
-}
-
-.st6 {
-    fill-rule: evenodd;
-    clip-rule: evenodd;
-    fill: #008BF4;
-}
-
-.st7 {
-    fill: #47A6C8;
-}
-
-.st8 {
-    fill: #53378A;
-}
-
-.st9 {
-    fill: #DF9900;
-}
-
-.st10 {
-    fill: #C43D3C;
-}
-
-.st11 {
-    fill-rule: evenodd;
-    clip-rule: evenodd;
-    fill: #86BBB8;
-}
-
-.st12 {
-    fill: #C4CB26;
-    stroke: #070508;
-    stroke-width: 0.5348;
-    stroke-miterlimit: 10.6956;
-}
 
 
 .resumen{
